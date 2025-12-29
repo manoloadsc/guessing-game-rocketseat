@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 type LetterProps = {
   value?: string;
   size?: "default" | "small";
-  color?: "default" | "corret" | "wrong";
+  color?: "default" | "correct" | "wrong";
 };
 
 export function Letter({
@@ -16,7 +16,7 @@ export function Letter({
       className={`
       ${styles.letter}
       ${size === "small" && styles.letterSmall}
-      ${color === "corret" && styles.letterCorrect}
+      ${color === "correct" && styles.letterCorrect}
       ${color === "wrong" && styles.letterWrong}`}
     >
       <span>{value}</span>

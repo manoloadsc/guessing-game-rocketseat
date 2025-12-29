@@ -1,8 +1,8 @@
 export type Challenge = {
-  id: number
-  word: string
-  tip: string
-}
+  id: number;
+  word: string;
+  tip: string;
+};
 
 export const WORDS: Challenge[] = [
   { id: 1, word: "CSS", tip: "Linguagem de estilos" },
@@ -14,4 +14,4 @@ export const WORDS: Challenge[] = [
     tip: "Uma das linguagens de programação mais utilizadas no mundo",
   },
   { id: 5, word: "Typescript", tip: "Para adicionar tipagem no Javascript" },
-]
+];
