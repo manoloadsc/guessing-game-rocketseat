@@ -5,4 +5,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f7f5ff;
+}
+
+.container main {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.word {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  margin: 2rem 0;
+}
+
+.guess {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 0.75rem;
 }
